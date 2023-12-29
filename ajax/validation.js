@@ -91,7 +91,7 @@ $(document).ready(function(){
 
         const validupass = pattern.test(password);
 
-        if(password.length < 8){
+        if(password.length == 8){
 
             alert("Password is too short");
 

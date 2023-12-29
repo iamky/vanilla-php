@@ -21,13 +21,14 @@ session_start();
 
 </form>
 
-<form action ="edit.php">
-
+<form action ="../private/controller/usercontroller.php" id="editform">
+<label for="newusername">Enter your New Username</label>
+<input type="text" name="newuname" id="newuname">
 <input type="submit" value="edit">
 
 </form>
 
-<form action ="delete.php">
+<form action ="../private/controller/usercontroller.php" id="deleteform">
 
 <input type="submit" value="delete">
 

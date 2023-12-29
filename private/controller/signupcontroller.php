@@ -19,6 +19,7 @@ if($button=='save'){
         if($exc){
 
             echo "User data saved...";
+            header("../../views/Login.php");
 
         }
 
